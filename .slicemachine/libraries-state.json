@@ -1,0 +1,75 @@
+{
+  "slices": {
+    "components": {
+      "post": {
+        "library": "slices",
+        "id": "post",
+        "name": "Post",
+        "description": "Post",
+        "model": {
+          "id": "post",
+          "type": "SharedSlice",
+          "name": "Post",
+          "description": "Post",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Post",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "post",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Expedite dot-com infrastructures",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Velit cillum laborum sunt laboris elit commodo proident. Tempor mollit occaecat velit id ut proident duis exercitation non quis non ad ut fugiat.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

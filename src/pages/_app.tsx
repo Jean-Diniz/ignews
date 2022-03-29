@@ -6,7 +6,7 @@ import { Header } from "../components/Header";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
-    <NextAuthProvider session={session}>
+    <NextAuthProvider session={pageProps.session}>
       <Header />
       <Component {...pageProps} />
     </NextAuthProvider>
